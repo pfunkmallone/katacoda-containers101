@@ -12,10 +12,14 @@ Check the process list again:
 
 But wait...I want to show you one more thing:
 
-`docker ps -a`{{execute}} the -a switch shows even stopped containers.
+`docker ps -a`{{execute}} (the -a switch shows even stopped containers
 
-To terminate those, you'll need to run the following command in the terminal:
+You've stopped the container twice...but you didn't terminate either one.
+
+To terminate them, you'll need to type the following command in the terminal:
 
 `docker rm <containerName>` (either list both, or run the command for each name)
 
 Now let's verify it's gone: `docker ps -a`{{execute}}
+
+Now we're back to a clean slate.

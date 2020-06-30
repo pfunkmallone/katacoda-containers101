@@ -8,7 +8,7 @@ Let's break out or 'HUP' the server. Use CTRL-C in the terminal
 Now let's try to start it again in the background, but this time in the background
 by using the -d or --detach flag.
 
- `docker run -d -p 80:80 nginx:alpine`{{execute}}
+ `docker run -d -p 80:80 nginx:latest`{{execute}}
 
 Let's make sure it's running again:
 

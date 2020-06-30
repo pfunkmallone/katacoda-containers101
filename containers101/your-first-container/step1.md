@@ -12,7 +12,7 @@ In general, that list goes from most-desirable to least-desireable from a securi
 Our [Nginx](https://hub.docker.com/_/nginx) container is an "Official" build. We will start it as a simple web server, hosting the service on port 80.
 
 
-`docker run -p 80:80 nginx:alpine`{{execute}}
+`docker run -p 80:80 nginx:latest`{{execute}}
 
 Some things to talk about:
 
