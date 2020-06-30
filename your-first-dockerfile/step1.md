@@ -1,5 +1,13 @@
 Let's start by creating a Dockerfile: `touch Dockerfile`{{execute}}
 
+Next, we'll populate the Dockerfile:
+<pre class="file" data-filename="index.html" data-target="replace">
+FROM: ubuntu:latest
+COPY index.html /var/www/html
+RUN [&quot;nginx&quot;, &quot;daemon off;&quot;]
+<pre>
+
+
 Now, open `Dockerfile`{{open}}
 
 
