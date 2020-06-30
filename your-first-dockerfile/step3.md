@@ -4,11 +4,14 @@ So, we've built our first container image. Now let's run it to see if it worked.
 
 Let's break down that command:
 
-`docker run --name &#x3C;friendly name&#x3E; --rm -p &#x3C;hostport-containerport&#x3E; &#x3C;image name:image tag&#x3E;`
+`docker run --name <friendly name> -d --rm -p <hostport-containerport> <image name:image tag>`
 
-`--name nginx` names the running process something that we can easily remember.
+`docker run` - Essentially executes/runs the container declared
 
-`"--rm` makes sure that the container (once killed) will be shut down.
+`--name nginx` - Adds a friendly name to our new docker sub-process. This will be useful for killing or modifying the process later.
 
-`-p 80:80` maps port 80 on the host, to port 80 on the container (where the nginx service is running).
+`-d` - Runs the container in the "background" which releases your terminal window from the stdout/stderr.
 
+`"--rm` - Makes sure that the container is actually terminated when it's shut down.
+
+`-p 80:80` - Maps port 80 on the host, to port 80 on the container (where the nginx service is running).
