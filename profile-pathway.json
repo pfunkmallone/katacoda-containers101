@@ -1,0 +1,9 @@
+{
+    "scenarios": [
+      {
+        "title": "Creating Your First Container",
+        "description": "Learn to create your first Dockerfile",
+        "id": "your-first-dockerfile"
+      }
+    ]
+  }
