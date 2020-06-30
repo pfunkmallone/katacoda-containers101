@@ -1,14 +1,17 @@
 {
-    "scenarios": [
+    "title": "Containers 101",
+    "description": "Basic Docker commands and theory",
+    "icon": "docker",
+    "courses": [
       {
+        "course_id": "your-first-container",
         "title": "Run a Pre-built Container",
-        "description": "Run a Pre-built Container from DockerHub, and how to manage the process.",
-        "id": "your-first-container"
+        "description": "Run a Pre-built Container from DockerHub, and how to manage the process."
       },
       {
         "title": "Creating Your Own Container",
         "description": "Build a custom container",
-        "id": "your-first-dockerfile"
+        "course_id": "your-first-dockerfile"
       }
     ]
   }
