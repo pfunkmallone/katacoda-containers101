@@ -19,6 +19,7 @@
       },
       {
         "title": "Step 4",
+	"code": "clear",
         "text": "step4.md"
       },
       {
@@ -57,9 +58,10 @@
   "environment": {
     "uilayout": "editor-terminal",
     "hideHiddenFiles": true,
-    "showdashboard": true
+    "showdashboard": true,
+    "showvisualise": true
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu:2004"
   }
 }
