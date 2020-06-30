@@ -53,10 +53,6 @@
       "text": "finish.md"
     }
   },
-  "files": [
-      "Dockerfile",
-      "index.html"
-  ],
   "environment": {
     "uilayout": "editor-terminal",
     "hideHiddenFiles": true,
