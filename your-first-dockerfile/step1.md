@@ -2,7 +2,7 @@ Your editor (top right) is already populated with two files, `Dockerfile`{{open}
 
 Let's insert some data into the Dockerfile:
 <pre class="file" data-filename="Dockerfile" data-target="replace">
-FROM: ubuntu:xenial
+FROM ubuntu:xenial
 
 RUN apt-get update
 RUN apt-get install -y nginx
