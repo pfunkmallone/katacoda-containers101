@@ -1,8 +1,13 @@
 {
     "scenarios": [
       {
-        "title": "Creating Your First Container",
-        "description": "Learn to create your first Dockerfile",
+        "title": "Run a Pre-built Container",
+        "description": "Run a Pre-built Container from DockerHub, and how to manage the process.",
+        "id": "your-first-container"
+      },
+      {
+        "title": "Creating Your Own Container",
+        "description": "Build a custom container",
         "id": "your-first-dockerfile"
       }
     ]
