@@ -53,8 +53,14 @@
       "text": "finish.md"
     }
   },
+  "files": [
+      "Dockerfile",
+      "index.html"
+  ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "hideHiddenFiles": true,
+    "showdashboard": true
   },
   "backend": {
     "imageid": "ubuntu"
