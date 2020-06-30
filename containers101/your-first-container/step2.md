@@ -5,9 +5,13 @@ First, let's discuss on a couple of items:
 
 Let's break out or 'HUP' the server. Use CTRL-C in the terminal
 
-Now let's try to start it again in the background: `docker run -p 80:80 nginx:alpine`{{execute}}
+Now let's try to start it again in the background, but this time in the background
+by using the -d or --detach flag.
 
+ `docker run -d -p 80:80 nginx:alpine`{{execute}}
 
-As General Akbar said "It's a trap!" Why didn't that work?
+Let's make sure it's running again:
+
+Click https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
 #Discuss
