@@ -1,6 +1,10 @@
 In your terminal, we're re-building the myapp:0.1 container. 
 
-**TEST**: Do you remember the command to build it?
+>>**TEST**: Do you remember the command to build it?<<
+[ ] `docker run --tag myapp.0.1 .`
+[ ] `docker build --tag myapp:0.1`
+[*] `docker build --tag myapp:0.1 .`
+[ ] `docker build . --tag myapp.0:1`
 
 Once it's completed, you can see it in the local container cache:
 
