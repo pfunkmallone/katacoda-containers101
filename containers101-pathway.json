@@ -12,6 +12,11 @@
         "title": "Customize Your Own Container",
         "description": "Add content to a pre-built container.",
         "course_id": "your-first-dockerfile"
+      },
+      {
+        "title": "Understanding Image Layers",
+	"description": "blah",
+	"course_id": "understanding-images"
       }
     ]
   }
