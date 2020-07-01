@@ -2,7 +2,7 @@
   "title": "Understanding Image Layers",
   "description": "We'll explore the layers that make up a container image",
   "difficulty": "Beginner",
-  "time": "10",
+  "time": "5",
   "details": {
     "steps": [
       {
