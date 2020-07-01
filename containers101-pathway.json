@@ -20,7 +20,7 @@
       },
       {
         "title": "Understanding Perstistent Storage",
-	"description": "From base-image to your app, what makes up your container?",
+  	"description": "If the container is considered cattle not a pet, where can I keep my data?",
 	"course_id": "understanding-persistentstorage"
       }
     ]

@@ -1,5 +1,6 @@
 #!/bin/bash
-docker build -q -t 'myapp:0.1' .
+cd /root
+git clone https://github.com/niinpatel/nodejs-image-upload.git
 echo "done" >> /root/katacoda-finished
-#sleep 15
-#echo "done" >> /root/katacoda-background-finished
+docker build -t nodeapp:0.1 .
+echo "done" >> /root/katacoda-background-finished

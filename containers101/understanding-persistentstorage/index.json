@@ -20,9 +20,8 @@
     },
     "assets": {
       "host01": [
-        {"file": "Dockerfile", "target": "/root"},
-        {"file": "index.html", "target": "/root"},
-	{"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+	{"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+	{"file": "Dockerfile", "target": "/root/"}
       ]
     }
   },
