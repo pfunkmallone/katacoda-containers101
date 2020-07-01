@@ -1,0 +1,37 @@
+{
+  "title": "Understanding Persistent Storage",
+  "description": "If the container is considered cattle not a pet, where can I keep my data?",
+  "difficulty": "Beginner",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root"},
+        {"file": "index.html", "target": "/root"},
+	{"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "hideHiddenFiles": true,
+    "showdashboard": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

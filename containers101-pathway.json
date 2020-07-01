@@ -17,6 +17,11 @@
         "title": "Understanding Image Layers",
 	"description": "From base-image to your app, what makes up your container?",
 	"course_id": "understanding-images"
+      },
+      {
+        "title": "Understanding Perstistent Storage",
+	"description": "From base-image to your app, what makes up your container?",
+	"course_id": "understanding-persistentstorage"
       }
     ]
   }
