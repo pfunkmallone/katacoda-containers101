@@ -2,12 +2,13 @@ Your editor (top right) is already populated with two files, `Dockerfile`{{open}
 
 Let's insert some data into the Dockerfile:
 <pre class="file" data-filename="Dockerfile" data-target="replace">
-FROM ubuntu:xenial
-
-RUN apt-get update
-RUN apt-get install -y nginx
+FROM nginx:alpine
 
 COPY index.html /var/www/html
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
+
+STOPSIGNAL SIGTERM
 
 CMD [&quot;nginx&quot;, &quot;-g&quot;, &quot;daemon off;&quot;]
 </pre>
