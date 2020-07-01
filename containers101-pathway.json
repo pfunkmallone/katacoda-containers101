@@ -15,7 +15,7 @@
       },
       {
         "title": "Understanding Image Layers",
-	"description": "blah",
+	"description": "From base-image to your app, what makes up your container?",
 	"course_id": "understanding-images"
       }
     ]

@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.19.0
 COPY index.html /usr/share/nginx/html/
 ENTRYPOINT ["/docker-entrypoint.sh"]
 STOPSIGNAL SIGTERM
