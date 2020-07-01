@@ -1,7 +1,7 @@
 FROM node:latest
 WORKDIR /usr/src/app
-COPY package*.json ./
+COPY nodejs-image-upload/package*.json ./
 RUN npm install
-COPY . .
+COPY nodejs-image-upload/* .
 EXPOSE 8080
 CMD ["node", "server.js"]
