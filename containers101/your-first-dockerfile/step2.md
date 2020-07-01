@@ -7,9 +7,11 @@ You'll see that there are a few images already cached locally. No harm, now let'
 `docker build --tag myapp:0.1 .`{{execute}}
 
 > While that's building, let's walk through that command:
-> 
+ 
 > `docker build` - Starts the build process
+
 > `--tag myapp:0.1` - Tags the new image with the image name "myapp" and the tag (normally used for versions) as "0.1"
+
 > `.` - Indicates where the Dockerfile is (the current directory)
 
 Once the build process has completed, you'll see 

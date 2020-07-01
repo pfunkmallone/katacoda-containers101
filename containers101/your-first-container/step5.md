@@ -5,6 +5,7 @@ One last thing...those logs. They could be handy. Let's start the container one 
 Now let's generate some traffic in the logs:
 
 Click https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+
 **Be sure to refresh that page a few times to generate some requests!**
 
 And use this command to see the logs: `docker logs nginx`{{execute}}
