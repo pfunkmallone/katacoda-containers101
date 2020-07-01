@@ -29,6 +29,11 @@
     "finish": {
       "text": "finish.md"
     }
+    "assets": {
+      "host01": [
+        {"file": ".welcome.sh", "target": "/root", "chmod": "+x"}
+      ]
+    }
   },
   "files": [ "Dockerfile", "index.html" ],
   "environment": {
