@@ -15,4 +15,6 @@ Let's make sure it's running again:
 Click https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
 > - What if I want to see the logs now? (step 5)
-> - Remember the question "Does it pull from docker hub each time"? ``docker images``{{execute}}
+> - Remember the question "Does it pull from docker hub each time"? 
+
+``docker images``{{execute}}
