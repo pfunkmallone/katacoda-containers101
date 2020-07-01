@@ -13,14 +13,14 @@ Our [Nginx](https://hub.docker.com/_/nginx) container is an "Official" build.
 Let's start it as a simple web server, hosting the service on port 80.
 
 
-`docker run --port 80:80 nginx:latest`{{execute}}
+`docker run --publish 80:80 nginx:latest`{{execute}}
 
 Some things to talk about:
 
 - What happened when we ran that command?
 - Does it pull from docker hub each time?
 - What is *:latest*, and what are the gotcha's?
-- Explain --port (or -p)
+- Explain --publish (or -p)
 
 Now let's quickly test our app!
 

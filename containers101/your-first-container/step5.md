@@ -1,6 +1,6 @@
 One last thing...those logs. They could be handy. Let's start the container one more time.
 
-`docker run --detach --rm --name nginx -p 80:80 nginx:latest`{{execute}}
+`docker run --detach --rm --name nginx --publish 80:80 nginx:latest`{{execute}}
 
 Now let's generate some traffic in the logs:
 

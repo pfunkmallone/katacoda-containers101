@@ -6,7 +6,7 @@ Let's start up the image one more time. But this time, we're going to do a few t
 > - Tell it to remove the container when it stops with **--rm**
 > - Replace the sillyName with one I choose: --name &lt;nginx&gt;
 
-`docker run --detach --rm --name nginx --port 80:80 nginx:latest`{{execute}}
+`docker run --detach --rm --name nginx --publish 80:80 nginx:latest`{{execute}}
 
 Let's verify it's running: `docker ps -a`{{execute}}
 
