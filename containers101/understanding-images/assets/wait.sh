@@ -2,6 +2,7 @@
 
 show_progress()
 {
+  [ -x /usr/bin/docker ] || echo "Your Katacoda session is broken...sorry...you'll need to refresh this webpage and hopefully get a better session!"; exit
   echo -n "Building your container..."
   local -r pid="${1}"
   local -r delay='0.75'
