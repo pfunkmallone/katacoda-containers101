@@ -27,7 +27,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -35,7 +37,8 @@
     "assets": {
       "host01": [
         {"file": "Dockerfile", "target": "/root"},
-        {"file": "index.html", "target": "/root"}
+        {"file": "index.html", "target": "/root"},
+	{"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     }
   },
