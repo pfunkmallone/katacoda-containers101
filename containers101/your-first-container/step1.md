@@ -15,12 +15,14 @@ Let's start it as a simple web server, hosting the service on port 80.
 
 `docker run --publish 80:80 nginx:latest`{{execute}}
 
-Some things to talk about:
+The container is ready when you see "ready for start up"
 
-- What happened when we ran that command?
-- Does it pull from docker hub each time?
-- What is *:latest*, and what are the gotcha's?
-- Explain --publish (or -p)
+> Meanwhile, some things to talk about:
+> 
+> - What happened when we ran that command?
+> - Does it pull from docker hub each time?
+> - What is *:latest*, and what are the gotcha's?
+> - Explain --publish (or -p)
 
 Now let's quickly test our app!
 

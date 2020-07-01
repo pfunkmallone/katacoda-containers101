@@ -14,7 +14,11 @@ CMD [&quot;nginx&quot;, &quot;-g&quot;, &quot;daemon off;&quot;]
 </pre>
 
 
-Reading the Dockerfile, you'll notice that we "COPY index.html" to "/usr/share/nginx/html/". This copies the file into the container. Before we build the container, let's add some HTML to the index.html:
+Reading the Dockerfile, you'll notice that we "COPY index.html" to "/usr/share/nginx/html/". This copies the file into the container. 
+
+> Discuss the basics of the Dockerfile
+
+Before we build the container, let's add our own content to the index.html:
 <pre class="file" data-filename="index.html" data-target="replace">&lt;html&gt;
 &lt;head&gt;&lt;title&gt;My Webpage&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;

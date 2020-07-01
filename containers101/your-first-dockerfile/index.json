@@ -1,8 +1,8 @@
 {
   "title": "Containers 101",
-  "description": "A basic container from Dockerfile example",
+  "description": "Customize a pre-built container",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "10",
   "details": {
     "steps": [
       {

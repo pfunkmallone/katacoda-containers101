@@ -11,4 +11,4 @@ And use this command to see the logs: `docker logs nginx`{{execute}}
 
 Now let's stop it: `docker kill nginx`{{execute}}
 
-TEST: What do you type to verify if it's stopped? Type it!
+**TEST:** What do you type to verify if it's stopped? Try it!

@@ -4,13 +4,13 @@
     "icon": "docker",
     "courses": [
       {
-        "course_id": "your-first-container",
         "title": "Run a Pre-built Container",
-        "description": "Run a Pre-built Container from DockerHub, and how to manage the process."
+        "description": "Run a Pre-built Container from DockerHub, and how to manage the process.",
+        "course_id": "your-first-container"
       },
       {
-        "title": "Creating Your Own Container",
-        "description": "Build a custom container",
+        "title": "Customize Your Own Container",
+        "description": "Add content to a pre-built container.",
         "course_id": "your-first-dockerfile"
       }
     ]

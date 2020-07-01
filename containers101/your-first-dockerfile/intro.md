@@ -1,3 +1,3 @@
-# Welcome to Containers 101
+# Welcome to Containers 101 - Customzing a Pre-Built Container.
 
-This lesson will walk you through creating a very simple Dockerfile which will create an nginx webserver. We'll also copy in an "Howdy World!" html file to serve up from the container.
+In this lesson, you will learn how to customize a pre-built container using a Dockerfile. We will start with an nginx base-image and add our own "Howdy World!" html file.
