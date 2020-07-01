@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  echo -n "Building your container..."
+  echo -n "Building your myapp:0.1 container..."
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -20,7 +20,7 @@ show_progress()
     fi
   done
   printf "    \b\b\b\b"
-  echo ""
+#  echo ""
   echo "Completed"
 #  echo -n "Configuring"
 #  while true; do 
