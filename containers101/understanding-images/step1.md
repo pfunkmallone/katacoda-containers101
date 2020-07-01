@@ -1,6 +1,8 @@
 In your terminal, we're re-building the myapp:0.1 container. 
 
-Once completed: You can see it in the local container cache:
+**TEST**: Do you remember the command to build it?
+
+Once it's completed, you can see it in the local container cache:
 
 `docker images myapp:0.1`{{execute}}
 
