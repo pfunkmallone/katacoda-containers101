@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  [ ! -x /usr/local/bin/docker ] && echo "You have a broken Katacoda environment. Please refresh this webpage"
+  [ ! -x /usr/bin/docker ] && echo "You have a broken Katacoda environment. Please refresh this webpage"
   echo -n "Building your myapp:0.1 container..."
   local -r pid="${1}"
   local -r delay='0.75'
