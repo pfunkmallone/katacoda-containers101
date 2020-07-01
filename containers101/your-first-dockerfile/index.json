@@ -2,7 +2,7 @@
   "title": "Containers 101",
   "description": "A basic container from Dockerfile example",
   "difficulty": "Beginner",
-  "time": "30",
+  "time": "5",
   "details": {
     "steps": [
       {
