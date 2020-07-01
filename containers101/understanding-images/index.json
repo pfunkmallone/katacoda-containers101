@@ -31,12 +31,11 @@
     },
     "finish": {
       "text": "finish.md"
-    }
-  },
-  "assets": {
+    },
+    "assets": {
       "host01": [
-	      {"file": "assets/Dockerfile", "target": "/root"},
-	      {"file": "assets/index.html", "target": "/root"}
+        {"file": "assets/Dockerfile", "target": "/root"},
+        {"file": "assets/index.html", "target": "/root"}
       ]
   },
   "environment": {
