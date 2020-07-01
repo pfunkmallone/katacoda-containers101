@@ -1,4 +1,4 @@
-We've already re-created the myapp:0.1 container. You can see it in the local container cache:
+In your terminal, we're re-building the myapp:0.1 container. You can see it in the local container cache:
 
 `docker images myapp:0.1`{{execute}}
 
