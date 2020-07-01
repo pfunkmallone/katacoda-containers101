@@ -2,6 +2,7 @@
 
 show_progress()
 {
+  echo -n "Building your container..."
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
