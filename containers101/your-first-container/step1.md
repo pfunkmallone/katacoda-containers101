@@ -9,16 +9,15 @@ Docker Hub classifies containers into 4 categories:
 
 Our [Nginx](https://hub.docker.com/_/nginx) container is an "Official" build. 
 
+> Discuss the differences of the container categories
 
 Let's start it as a simple web server, hosting the service on port 80.
-
 
 `docker run --publish 80:80 nginx:latest`{{execute}}
 
 The container is ready when you see "ready for start up"
 
 > Meanwhile, some things to talk about:
-> 
 > - What happened when we ran that command?
 > - Does it pull from docker hub each time?
 > - What is *:latest*, and what are the gotcha's?

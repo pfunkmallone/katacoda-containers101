@@ -2,7 +2,7 @@
   "title": "Run a Pre-Built Container",
   "description": "Run a Pre-built Container from DockerHub, and how to manage the process.",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "10",
   "details": {
     "steps": [
       {
