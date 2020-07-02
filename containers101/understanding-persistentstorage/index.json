@@ -8,6 +8,10 @@
       {
         "title": "Step 1",
         "text": "step1.md"
+      },
+      {
+	"title": "Step 2",
+	"text": "step2.md"
       }
     ],
     "intro": {
@@ -21,7 +25,6 @@
     "assets": {
       "host01": [
 	{"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-	{"file": "Dockerfile", "target": "/root/"}
       ]
     }
   },
