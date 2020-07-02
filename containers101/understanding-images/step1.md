@@ -16,4 +16,4 @@ Let's take a look at the layers that make up the image:
 
 Compare that to your Dockerfile: `cat Dockerfile`{{execute}}
 
-> Discuss the layers from [alpine](https://github.com/alpinelinux/docker-alpine/blob/90788e211ec6d5df183d79d6cb02e068b258d198/x86_64/Dockerfile), [nginx](https://github.com/nginxinc/docker-nginx/blob/2ef3fa66f2a434cd5e44e35a02f4ac502cf50808/mainline/buster/Dockerfile), and how your Dockerfile contributed to the container.
+> Discuss the layers from [alpine](https://github.com/alpinelinux/docker-alpine/blob/90788e211ec6d5df183d79d6cb02e068b258d198/x86_64/Dockerfile), [nginx](https://github.com/nginxinc/docker-nginx/blob/2ef3fa66f2a434cd5e44e35a02f4ac502cf50808/mainline/alpine/Dockerfile), and how your Dockerfile contributed to the container.

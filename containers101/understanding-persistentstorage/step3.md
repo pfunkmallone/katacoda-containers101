@@ -22,6 +22,4 @@ Check for your pictures: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environ
 
 now explore the host filesystem:
 
-`ls originals`{{execute}}
-`ls import`{{execute}}
-`ls storage`{{execute}}
+`tree`{{execute}}
