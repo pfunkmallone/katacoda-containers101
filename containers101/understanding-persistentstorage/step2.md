@@ -10,6 +10,6 @@ In the container, things stored in that home directory will actually be placed o
 
 > Discuss:
 
-> - SANs, NASs, NFS, Database services, and other magic
+> - Host filesystem maps
 
 > - Backup your persistent storage!
