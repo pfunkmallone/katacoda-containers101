@@ -1,3 +1,2 @@
-In this lesson, we will explore the layers which make up a container.
+In this lesson, we will discuss data storage options and challenges.
 
-Specifically, we'll re-use our "myapp:0.1" container, so be sure you've been through the previous lessons.
