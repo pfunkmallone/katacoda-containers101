@@ -1,0 +1,58 @@
+{
+  "title": "Docker Compose",
+  "description": "Building on the Docker foundation we'll move on to multiple containers with docker-compose",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Building Web Application Container",
+        "text": "step1.md"
+      },
+      {
+        "title": "What is Docker Compose",
+        "text": "step2.md"
+      },
+      {
+        "title": "Docker Compose File",
+        "text": "step3.md"
+      },
+      {
+        "title": "Run it all",
+        "text": "step4.md"
+      },
+      {
+        "title": "Stopping it all",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file":"*",
+          "target":"/root/app"
+        }, {
+          "file":".welcome.sh",
+          "target":"/root",
+          "chmod": "+x"
+        }  
+      ]
+    }
+  },
+  "files": [ "Dockerfile", "docker-compose.yml" ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "hideHiddenFiles": true,
+    "showdashboard": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
