@@ -15,13 +15,18 @@
       },
       {
         "title": "Understanding Image Layers",
-	"description": "From base-image to your app, what makes up your container?",
-	"course_id": "understanding-images"
+	      "description": "From base-image to your app, what makes up your container?",
+	      "course_id": "understanding-images"
       },
       {
         "title": "Understanding Perstistent Storage",
-  	"description": "If the container is considered cattle not a pet, where can I keep my data?",
-	"course_id": "understanding-persistentstorage"
+  	    "description": "If the container is considered cattle not a pet, where can I keep my data?",
+	      "course_id": "understanding-persistentstorage"
+      },
+      {
+        "title": "Docker Compose",
+  	    "description": "Building on the Docker foundation we'll move on to multiple containers with docker-compose",
+	      "course_id": "docker-compose"
       }
     ]
   }
